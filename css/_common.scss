@@ -1,0 +1,106 @@
+
+
+/* COLOR */
+$primary: #425ce0;
+$point: #3AEBB6;
+$point-deep: #3BD7EC;
+$white: #fff;
+$black: #212529;
+$black400: #42464b;
+$black300: #757a7f;
+$gray500:#646f7c;
+$gray400: #c5cbce;
+$gray300: #e9ebee;
+
+
+
+@mixin L{
+    font: {
+        weight: 200;
+        family: "Poppins","Spoqa Han Sans Neo", Sans-serif;
+    }
+}
+
+@mixin R{
+    font: {
+        weight: 300;
+        family: "Poppins","Spoqa Han Sans Neo", Sans-serif;
+    }
+}
+
+@mixin M{
+    font: {
+        weight: 400;
+        family: "Poppins","Spoqa Han Sans Neo", Sans-serif;
+    }
+}
+
+@mixin SB{
+    font: {
+        weight: 600;
+        family: "Poppins", "Spoqa Han Sans Neo", Sans-serif;
+    }
+}
+
+@mixin B{
+    font: {
+        weight: 700;
+        family: "Poppins","Spoqa Han Sans Neo", Sans-serif;
+    }
+}
+
+@mixin Title{
+    font: {
+        size: 3rem;
+    }
+    line-height: 1.5;
+}
+
+@mixin Heading01{
+    font: {
+        size: 2.5rem;
+    }
+    line-height: 1.8;
+}
+
+@mixin Heading02{
+    font: {
+        size: 1.75rem;
+    }
+    line-height: 1.8;
+}
+
+@mixin Heading03{
+    font: {
+        size:1.25rem;
+    }
+    line-height: 1.8;
+}
+
+@mixin P{
+    font: {
+        size:1rem;
+    }
+    line-height: 1.8;
+}
+
+@mixin Sub01{
+    font: {
+        size: 0.875rem;
+    }
+    line-height: 1.8;
+}
+
+@mixin Sub02{
+    font: {
+        size: 0.75rem;
+    }
+    line-height: 1.8;
+}
+
+@mixin dp( $display, $justify-content, $align-items, $flex-wrap ){
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-wrap: $flex-wrap;
+}
