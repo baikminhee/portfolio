@@ -589,7 +589,7 @@ header .ver {
 }
 
 #portfolio-web .preview-item-img.medium {
-  transition: all 3s ease-in-out; /* 중간 크기 */
+  transition: all 5s ease-in-out; /* 중간 크기 */
 }
 
 #portfolio-web .preview-item-img.large {
