@@ -316,13 +316,13 @@ header .ver {
   font-family: "Poppins", "Spoqa Han Sans Neo", Sans-serif;
   color: #fff;
   letter-spacing: -0.1rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 #main p {
   font-weight: 300;
   font-family: "Poppins", "Spoqa Han Sans Neo", Sans-serif;
   color: #fff;
-  margin-bottom: 2.5rem;
+  /* margin-bottom: 2.5rem; */
 }
 #main .main-btn a {
   font-weight: 600;
