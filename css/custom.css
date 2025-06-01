@@ -549,7 +549,7 @@ header .ver {
   background-color: #0084ff;
 }
 #portfolio .pdfbox:active h4, 
-#portfolio .pdfbox p:active{
+#portfolio .pdfbox:active p{
   color:#fff;
 }
 
