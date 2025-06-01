@@ -150,7 +150,7 @@ ul, ol, dl, table, form, p, address, blockquote, li {
 
 
   #ex .exbox-wrap .exbox{
-    /* display:flex; */
+    display:flex;
     margin-bottom: 1rem;
   }
   #ex .exbox-wrap .exbox .date {
@@ -167,7 +167,7 @@ ul, ol, dl, table, form, p, address, blockquote, li {
     left: 5.2rem;
   }
   #ex .exbox-wrap .exbox .timeline p{
-    display: none;
+    /* display: none; */
   }
 
   #portfolio-web .item-wrap {
@@ -548,16 +548,11 @@ header .ver {
   /* background-color: #3BD7EC; */
   background-color: #0084ff;
 }
+#portfolio .pdfbox:active h4, 
+#portfolio .pdfbox p:active{
+  color:#fff;
+}
 
-/* 
-#portfolio .pdfbox:hover .material-symbols-outlined, 
-#portfolio-web .pdfbox:hover .material-symbols-outlined,  
-#portfolio-web .pdfbox:hover .material-icons, 
-#portfolio .pdfbox:hover h4, 
-#portfolio-web .pdfbox:hover h4, 
-#portfolio .pdfbox:hover .material-icons, 
-#portfolio .pdfbox:hover p, 
-*/
 #portfolio-web .pdfbox:hover p {
   color: #fff;
 }
