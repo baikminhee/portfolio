@@ -1,0 +1,93 @@
+@import "_common";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+
+// @font-face {
+// 	font-family: 'SHSN_L';
+// 	font-style:normal;
+// 	src:url('../fonts/SpoqaHanSansNeo-Light.eot'),
+// 	url('../fonts/Spoqa Han Sans Neo Light.woff2') format('woff2');
+// }
+// @font-face {
+// 	font-family: 'SHSN_R';
+// 	font-style:normal;
+// 	src:url('../fonts/SpoqaHanSansNeo-Regular.eot'),
+// 	url('../fonts/Spoqa Han Sans Neo Regular.woff2') format('woff2');
+// }
+// @font-face {
+// 	font-family: 'SHSN_M';
+// 	font-style:normal;
+// 	src:url('../fonts/SpoqaHanSansNeo-Medium.eot'),
+// 	url('../fonts/Spoqa Han Sans Neo Medium.woff2') format('woff2');
+// }
+// @font-face {
+// 	font-family: 'SHSN_B';
+// 	font-style:normal;
+// 	src:url('../fonts/SpoqaHanSansNeo-Bold.eot'),
+// 	url('../fonts/Spoqa Han Sans Neo Bold.woff2')format('woff2');
+// }
+
+
+/* Basic Reset */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,
+b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,
+menu,nav,section,summary,time,mark,audio,video{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	vertical-align:baseline;
+	background:transparent;
+    box-sizing: border-box;}
+
+    html,body{ 
+        width:100%;
+        height:100%;
+        background:#F6F7FF;
+    }
+    
+    html{
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    
+
+ul, ol{list-style: none;}
+
+a{	color: $black;
+	text-decoration: none;}
+
+img{border:0;    
+    box-sizing: border-box;}
+
+label, input{vertical-align: middle;}
+input{outline: none}
+
+table, tr, th, td{
+	border: 1px solid $black;
+	border-collapse: collapse;
+}
+caption{
+	width: 100%; 
+    height: 30px;
+} 
+
+/* Font Reset */
+body{
+    @include P;
+    font: {
+        size:16px;
+        family: "Poppins","Spoqa Han Sans Neo", Sans-serif;
+        weight: 400;
+    }
+    color: $black;
+    word-break: keep-all;
+}
+
+ul, ol, dl, table, form, p, address, blockquote, li{
+	font-size: 1rem;
+   word-break: keep-all;
+}
+

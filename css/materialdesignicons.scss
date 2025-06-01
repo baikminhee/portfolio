@@ -1,0 +1,11 @@
+.mdi-home::before {
+    content: "\F02DC";
+}
+.mdi:before, .mdi-set {
+    display: inline-block;
+    font: normal normal normal 14px / 1 "Material Design Icons";
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
